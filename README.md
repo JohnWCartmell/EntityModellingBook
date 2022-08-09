@@ -1,5 +1,5 @@
 # entitymodellingbook
 Source of my online book www.entitymodelling.org. 
 
-Source is represented in xml described by a document model and transformed by xslt into html/svg.
-See my documentmodel repository. The document model is implemented by ERScript. See my ERscript repository.
+The source is represented in xml described by a (document model)[github.com/JohnWCartmell/documentmodel] and transformed by xslt into html/svg.
+The document model is implemented in (ERScript)[githib.com/John.W.Cartmell/ERScript]. 
