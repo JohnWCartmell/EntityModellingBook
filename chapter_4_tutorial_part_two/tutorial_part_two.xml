@@ -503,7 +503,7 @@
     <subsection>
       <title>Example - Chemical Elements</title>
       <para> In any given situation, getting to the right blend of entity types, attributes and relationships
-        may be an iterative process as demonstrated in this next example in
+        may be an iterative process as demonstrated in this next example in which
         we explore two entries for chemical elements from a scientific dictionary<footnote>Chambers Dictionary of Science and Technology, 1974, ISBN 0 550 13202 3</footnote>:
         <quotation>
           <b>oxygen</b> (Chem.). A nonmetalic element, symbol O, at. no. 8, r.a.m. 15.994, valency 2. 
@@ -925,7 +925,7 @@
       but which are indicative of a relationship between the subject entity and
       other entities we shall say are 
       <emph>reference attributes</emph><footnote><bibentry>ShlaerMellor</bibentry></footnote><sup>,</sup><footnote>What we are calling here <emph>reference attributes</emph> 
-        are the<emph>foreign key attributes</emph> of relational database theory. Whatever we call them, 
+        are the <emph>foreign key attributes</emph> of relational database theory. Whatever we call them, 
         and I personally struggle with this term from database theory, the concept is not purely
         a database concept <emdash/> as a concept it is more important than this <emdash/> it should be seen
         as a messaging concept.</footnote>.
@@ -1307,8 +1307,9 @@
       with a different  entity model; having said that, the pertinent point is that the models only differ in the categorisation of binary relationships
       as either reference of composition. In all cases the models have two binary relationships representing the giver and the receiver of love respectivly.
       Abstractly these are the arc adjacency relationships of a directed graph i.e. the source respectively the destination of each arc of the graph.
-      If both of these binary relationships are classified as reference then two reference attributes represent them in messages and a 
-      relational message system results. If one or the other binary relationships is classifed as a reference relationship then a hierarchical message structure results. There is a choice of two relationships to represent as compositional and so a choice of two message systems. Finally we illustrate the case  when both binary relationships are considered to be composition relationships.      
+      If both of these binary relationships are classified as reference then two reference attributes represent them in messages and a relational message system results. 
+      If just one or the other of these relationships is classifed as a reference relationship, 
+      the other being classified as a composition relationship, then a hierarchical message structure results. There is a choice of two relationships to represent as compositional and so a choice of two message systems. Finally we illustrate the case  when both binary relationships are considered to be composition relationships.      
     </para>  
     <para>    
       The first message system illustrated is relational, the next two hierarchical and the final one is two dimensional.
@@ -1741,14 +1742,13 @@
         We will use the following definition:	 
         <itemize>
           <item>
-            An entity model is <emph>fully logical</emph> provided that it does not contain reference attributes <emdash/> each attribute of each entity gives information about the entity above and beyond the information given by its relationships 
+            An entity model is <emph>fully logical</emph> provided that it does not contain reference attributes <emdash/> each attribute of each entity gives information about the entity beyond the information given by its relationships 
           </item>
         </itemize>
         and in contrast: 
         <itemize>
           <item>
-            An entity model is <emph>fully physical</emph> if and only if it includes a specification how each of its 
-            relationships is to be represented in an abstract message system. 
+            An entity model is <emph>fully physical</emph> if and only if it includes a specification how each of its relationships is to be represented in an abstract message system. 
           </item>
         </itemize>
       </para>
@@ -1870,7 +1870,7 @@
 
       <para>
         A fully physical model is non-relational if some relationships have no reference attributes to represent them.
-        The implication is that such relationships are represented by containment
+        The implication is that such relationships are represented by structural containment
       </para>
       <para>
         If this model is interpreted as fully physical:
@@ -1981,7 +1981,7 @@
           (a)  the fully logical model
           <newline/>
         <er_center>
-             <filename>Chen76NwithAttributes</filename>
+             <filename>chen76NwithAttributes</filename>
         </er_center>
         </para>
         <newline/>
@@ -1989,7 +1989,7 @@
           (b) a relational fully physical model that is logically equivalent 
           <newline/>
         <er_center>
-             <filename>Chen76N_relational</filename>
+             <filename>chen76N_relational</filename>
         </er_center>
         </para>
 

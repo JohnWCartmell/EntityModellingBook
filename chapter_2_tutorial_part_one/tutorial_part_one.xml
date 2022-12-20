@@ -53,7 +53,7 @@
 
 		<para>
 			Composition relationships are shown top-down, which is to say that they are drawn leaving the lower edge of 
-			the box representing type of the whole and entering the upper edge of the type representing the part, as here: (a)
+			the box representing the type of the whole and entering the upper edge of the type representing the part, as here: (a)
 			<er_inline>
 				<filename>wholeOfOneOrMoreParts</filename>
 			</er_inline>. This fragment signifies that there are <emph>one or more</emph> 
@@ -66,8 +66,7 @@
 			provide context to entities. 
 		</para>
 
-		<para> The presence of the crows foot is representative
-			of multiplicity <emdash/> 
+		<para> The presence of the crows foot is representative of multiplicity <emdash/> 
 			if the crows foot is 
 			present the notation asserts that there may be many parts of type <emph>part type</emph> within each 
 			entity of type <emph>whole type</emph>.
@@ -244,7 +243,7 @@
 		<para> When a whole is decomposed into parts then very often we find that the part types can be decomposed further. 
 			We have seen this already: <entity>sentence</entity>s can be broken down into <entity>word</entity>s 
 			and <entity>words</entity> into <entity>letter</entity>s. 
-			These can be shown  on a single  diagram the relationships are stacked, forming a tower, say,  as follows:
+			These can be shown  on a single  diagram <emdash/>  the relationships are stacked, forming a tower, say,  as follows:
 			<er_center>
 				<filename>sentenceWordLetter</filename>
 			</er_center>
@@ -349,7 +348,7 @@
 
 
 			This asserts that every <emph>type</emph> entity is composed of one or more <emph>type</emph> entities... each one of which, therefore, is itself 
-			composed of one more <emph>type</emph> entities ... and so on indefinitely. 
+			composed of one or more <emph>type</emph> entities ... and so on indefinitely. 
 		</para> 
 		<para>
 			The implied infinity in this model is a concern which is elaborated by Jonathon Swift for whom the type in question is the type <entity>flea</entity>:
@@ -541,7 +540,7 @@
 		</er_center>
 
 		<para> The example in figure <figref>molecule</figref> combines composition structure 
-			(molecule has atoms has bonds formed) and reference structure atoms reference elements of the periodic table 
+			(molecule has atoms, atoms have bonds formed) and reference structure by which atoms reference elements of the periodic table 
 			and bonds formed reference each other. </para>
 
 		<figureOfPictureWithNote>
@@ -893,10 +892,11 @@
 				in the model in figure <figref>brintonAdjectivalPhrase</figref>. 
 			</para>
 			<para> A further extended example of the modelling of sentence structure in presented in
-				Chapter <refchapter>
-					<label>englishsentence</label>
+				section
+				<refsection>
+					<label><chapter>examplesone</chapter><section>englishsentence</section></label>
 					<title>English Sentence Structure</title>
-				</refchapter>.
+				</refsection>.
 			</para>
 		</subsection>
 
@@ -1029,7 +1029,7 @@
 				</er_inline> 
 				<emph>can</emph> appear in a core model <emdash/> it is just that it cannot appear in the model of figure <figref>atom</figref>. Figure <figref>atomProtonNeutronElectron</figref> illustrates this. 
 				This is a model which does contain the relationship but which does not does not break the golden rule. 
-				The model in figure <figref>atomProtonNeutronElectron</figref> and is appropriate in modelling situations where the localisation of protons and neutrons to the nucleus is irrelevant to the task at hand. 
+				The model in figure <figref>atomProtonNeutronElectron</figref> is appropriate in modelling situations where the localisation of protons and neutrons to the nucleus is irrelevant to the task at hand. 
 				There is nothing necessarily inherent, therefore, in the distinction between core and constructed <emdash/> in one model a relationship may be core while in a different model it may be constructed. 
 			</para>
 
@@ -1103,7 +1103,7 @@
 				The result is shown in figure <figref>studentEnrollmentCourse</figref>.
 				Any entity type introduced to eliminate a many-many relationship in this way is commonly called an <emph>intersection entity</emph>; unavoidably an entity of this type,
 				and, by the way, we are better calling it the intersection type, 
-				is   unique  with respect to the entities it relates. In the example of figure <figref>studentEnrollmentCourse</figref> this is to say that for any student and any course thereis at most one enrollment that relates to that student and that course. This is documented bt placing a bar across each of the two relationships of the <entity>enrollment</entity> 
+				is   unique  with respect to the entities it relates. In the example of figure <figref>studentEnrollmentCourse</figref> this is to say that for any student and any course there is at most one enrollment that relates to that student and that course. This is documented by placing a bar across each of the two relationships of the <entity>enrollment</entity> 
 				entity type.
 			</para>
 
@@ -1182,13 +1182,13 @@
 
 
 		<para> The entity modelling notation in one form or another is a part of the core syllabus in the information
-			sciences. Invariably, though, no distinction is made between composition and reference 
-			<footnote>The one exception to this would be in teaching of the UML notation 
+			sciences. Invariably, though, no distinction is made between 
+			composition and reference <footnote>The one exception to this would be in teaching of the UML notation 
 				wherein there is a further classification of composition relationships resulting in three subclasses 
 				of the core relationship concept rather than two as here.</footnote>. This is a weakness currently; students are not
 			being provided with the best conceptual tools for database design and without these tools there remains a database
 			normalisation step which is not properly explained and has the feel of a dark art.
-			The concept of relationship scope is the key missing concept and it is introduced in the sectiosn which follow. 
+			The concept of relationship scope is the key missing concept and it is introduced in the sections which follow. 
 			Before this however we revisit the distinction between compsotion and reference and ask <q>is this a real distinction?</q>.
 		</para>
 
@@ -1413,7 +1413,7 @@
 
 			<para> For example if we wish to propose that, in the context of a performance of King Lear, 
 				we  give someone the role of <q>the fool</q> then we do not have to say <q>the fool in King Lear</q> we 
-				simply have to say <q>the fool</q> for our shared knowledge of the scope of the relationship <entity>plays the part of</entity>/<entity>part played by</entity> implies
+				simply have to say <q>the fool</q> for our shared knowledge of the scope of the relationship <entity>plays part of</entity>/<entity>part played by</entity> implies
 				the rest. Contrast this to the description often given of previous parts played by the actors as an enumeration of characters within plays.
 			</para>
 
@@ -1426,11 +1426,11 @@
 		<label>scopediagrams</label>
 
 
-		<para> To summarise, the <entity>plays the part of</entity> relationship is limited in scope. In the specific context of a cast member, 
+		<para> To summarise, the <entity>plays part of</entity> relationship is limited in scope. In the specific context of a cast member, 
 			the part they play is in the same play as the performance is a performance of. </para>
 
-		<para> The relationship <entity>plays the part of</entity> has a type constraint : in its proper usage it has to relate cast members with 
-			characters but it also has a scope constraint: that the character is a character within the context of the play being performed.
+		<para> The relationship <entity>plays part of</entity> has a type constraint : in its proper usage it has to relate cast members with 
+			characters but it also has a scope constraint: that the character is, necessarily, a character within the context of the play being performed.
 		</para>
 
 		<figureOfPicture>
@@ -1459,7 +1459,7 @@
 						<scopeup/>
 					</courier>
 					represents
-					navigation up the diagram along an incoming dependency to a parent entity.
+					navigation up the diagram along the dependency to a parent entity.
 				</para>	  
 				<para>
 					In category theory terminology this is a diagram that commutes, see section 
@@ -1714,7 +1714,7 @@
 			asserted by means of relationship cardinality, 
 			applying as cardinality does to a single relationship. 
 			In this section we introduce a notation for doing so for a certain significant 
-			class of existence assertions and which involves use of a <q>bowtie</q> symbol on 
+			class of existence assertions which involves use of a <q>bowtie</q> symbol on 
 			each of two or more contributing relationships;
 			visually the bowtie  is an extension of the
 			cardinality crowsfoot and the bar used to distinguish identifying relationships. 
@@ -2162,10 +2162,10 @@
 		<subsection>
 			<title>Translational Equivalents</title>
 			<para> In some cases a single term exists that can be used in place of a composite relational construction; 
-				kinship terms provide a rich source of examples: <emph>grandfather</emph> substitutes for <emph>male grandparent</emph>, aunt for <emph>parent's sister</emph> and so on. Linguists would say in such cases that the single term and the composite phrase were translational equivalents.
+				kinship terms provide a rich source of examples: <emph>grandfather</emph> substitutes for <emph>male grandparent</emph>, <emph>aunt</emph> for <emph>parent's sister</emph> and so on. Linguists would say in such cases that the single term and the composite phrase were translational equivalents.
 			</para>
 
-			<para> Different languages vary with respect to the common relational constructions for which there are single term translational equivalents. For example,from the realm of temporal relationships rather those of kinship, in the Alamblak language of Papua New Guinea there is a word <emph>yuanane</emph> whose meaning is two days removed from the present which is to say its English translational equivalent is <emph>the day before yesterday or day after tomorrow</emph>. There is of course no single term in English which is translationally equivalent.
+			<para> Different languages vary with respect to the common relational constructions for which there are single term translational equivalents. For example, from the realm of temporal relationships rather those of kinship, in the Alamblak language of Papua New Guinea there is a word <emph>yuanane</emph> whose meaning is two days removed from the present which is to say its English translational equivalent is <emph>the day before yesterday or day after tomorrow</emph>. There is of course no single term in English which is translationally equivalent.
 			</para>
 
 			<para> In regard to kinship terms, the English language is poorly endowed compared to many other languages and in English we need rely on explicit constructions such as elder brother, maternal uncle, wife's brother, cousin on mother's side to articulate relationships for which there are single word translational equivalents in other languages. For example, in the Sudanese kinship system also know as the descriptive system and into which category falls ancient Latin there is a specific term for all of the close family relationships.  In Latin for example <emph>amitinus</emph> is father's sister's son, <emph>patruelis</emph> is father's brother's son, <emph>matruelis</emph> is mother's sister's son and, completing the male cousins, <emph>consobrinus</emph> is mother's brother's son.  
@@ -2219,7 +2219,7 @@
 
 		<subsection>
 			<title>Expressing a Join in Mathematical Notation</title>
-			<para> Being as both the <emph>mother</emph> and <emph>father</emph> relationships are many-one relationships then they can be classified as mathematical functions; the relational join in this special case is precisely the mathematical operation of functional composition. In mathematical notation the functional composition, written $f \circ g$, of two functions f and g is defined by :
+			<para> Being as both the <emph>mother</emph> and <emph>father</emph> relationships are many-one relationships then they can be classified as mathematical functions; the relational join in this special case is precisely the mathematical operation of functional composition. In mathematical notation the functional composition, written f o g, of two functions f and g is defined by :
 
 				<equ_center>
 					<equationName>definitionofcirc</equationName>
@@ -2228,13 +2228,13 @@
 
 				and so we can write:
 				<verbatim>
-					maternalgrandfather = mother \circ father
+					maternalgrandfather = mother o father
 				</verbatim>
 
 				and 
 
 				<verbatim>
-					maternalgrandfather's mother = mother \circ father \circ mother
+					maternalgrandfather's mother = mother o father o mother
 				</verbatim>
 			</para>
 		</subsection>
@@ -2271,7 +2271,8 @@
 			</para>
 
 			<para> A concept which has been used in theoretical contexts but not more widely is that of 
-				logical horizon (a term found in Kant's Critique of Pure Reason'??). The logical horizon of an entity is 
+				logical horizon (a term which can be found in Kant's 'Critique of Pure Reason'). Used in the entity modelling context, 
+				the logical horizon of an entity is 
 				the set of entities which can be reached from it by navigation of single valued relationships. Thus father,
 				mother, their fathers and mothers and so on to all ancestors are said to be with in the logical horizon of a 
 				particular subject person entity. 
@@ -2335,7 +2336,7 @@
 			<para> Joining <q>tomorrow</q> with <q>tomorrow</q> is equally 
 				joining <q>yesterday</q> with <q>yesterday</q>. 
 				Consequently the <emph>yuanane</emph> relationship 
-				is it's own inverse, that is it is a symetric relationship: ???????????
+				is it's own inverse, that is it is a symmetric relationship.
 			</para>
 
 			<para> By expanding the <emph>definiens</emph> in the definition of <emph>yuanane</emph> and by also adding labels for all inverse relationships we get a single diagram:
@@ -2351,7 +2352,14 @@
 				</er_center>
 			</para>
 
-			<para> The existence of translational equivalents poses a particular danger to entity modellers as we have discussed in goodness.
+			<para> The existence of translational equivalents poses a particular danger to entity modellers as we have discussed in 
+				the section on
+				<refsection>
+				<label>
+					<chapter>perspective</chapter>
+					<section>goodness</section>
+				</label>
+			</refsection>.
 			</para>
 
 		</subsection>

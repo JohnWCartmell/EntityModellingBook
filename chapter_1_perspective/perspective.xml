@@ -312,7 +312,7 @@
 
       <newline/>
 
-      <para> In some ways, such diagrams as these show similarity to Venn diagrams. This one can be so interpreted as showing the set of men and the set of oxen included in the set of animals. However, to the entity modeller, there is no set of all men, nor of all oxen, nor of all animals for the question is not <q>what exists?</q> but <q>what types of things exist and what can be said of them?</q>. The diagram can be interpreted as saying is <q>what can be said of animal</q> can be said of <q>man</q> and of <q>ox</q> also.
+      <para> In some ways, such diagrams as these show similarity to Venn diagrams. This one can be so interpreted as showing the set of men and the set of oxen included in the set of animals. However, to the entity modeller, there is no set of all men, nor of all oxen, nor of all animals for the question is not <q>what exists?</q> but <q>what types of things exist and what can be said of them?</q>. The diagram can be interpreted as saying <q>what can be said of animal</q> can be said of <q>man</q> and of <q>ox</q> also.
       </para>
 
       <para> Aristotle says it like this:
@@ -672,8 +672,7 @@ The view of entity modelling which we present reveals
       ...the Absolute alone is true, truth alone is absolute.
     </quotation>
     <newline/>
-    <para> Some sense can be made of these statements when we consider from a logical perpective and from the point of view of information theory. We can illustrate by considering the, at first sight
-      at least, puzzling fact that in some programming languages (such as ML) there is an in-built concept with the name <q>Unit</q> and described as a singleton type, whereas  in some other earlier programming languages (Algol68, C)  the name given to the very same concept has been <q>void</q>. The apparently striking disparity in naming, the one versus the zero, has come  about as a  result of the concept being named on the one hand on the basis of the number of things predicated by the type (i.e the number of things we can say are of that type), which is exactly one, and on the other hand based on the number of bits (binary digits) of information carried in communicating a member of the type, which is precisely zero. We get the name <q>unit</q> from one point of view and the name <q>void</q> from the other. In this way we can say of the Absolute that it is the whole of everything. From it being the whole we can say there is only one of the type. From there being only one of the type we can say that it's information content is zero. If you present to me the absolute you present me with nothing. Like the true it can be assumed in all contexts for it carries nothing new with it. This is the logic of the absolute. 
+    <para> Some sense can be made of these statements when we consider from a logical perpective and from the point of view of information theory. We can illustrate by considering the seemingly puzzling fact that in some programming languages (such as ML) there is an in-built concept with the name <q>Unit</q> and described as a singleton type, whereas  in some other earlier programming languages (Algol68, C)  the name given to the very same concept has been <q>void</q>. The apparently striking disparity in naming, the one versus the zero, has come  about as a  result of the concept being named on the one hand on the basis of the number of things predicated by the type (i.e the number of things we can say are of that type), which is exactly one, and on the other hand based on the number of bits (binary digits) of information carried in communicating a member of the type, which is precisely zero. We get the name <q>unit</q> from one point of view and the name <q>void</q> from the other. In this way we can say of the Absolute that it is the whole of everything. From it being the whole we can say there is only one of the type. From there being only one of the type we can say that it's information content is zero. If you present to me the absolute you present me with nothing. Like the true it can be assumed in all contexts for it carries nothing new with it. This is the logic of the absolute. 
     </para>
 
     <para> The whole of a modelling situation can be considered a single composite and this is both <q>the ultimate whole</q> when considered as a composite and equally <q>the absolute</q> when considered as a context. If what we have said above can be summarised as saying that there is a duality between context and composition then in this duality <q>the whole</q> and <q>the absolute</q> are duals: they are the same logical entities. 
@@ -1177,7 +1176,7 @@ The view of entity modelling which we present reveals
         indiscernibles</emph> must hold true both of entities within database instances but also of real world entities. 
         The counter argument is basically the 
         Max Black counter argument given earlier and as illustrated by the molecular structure example <emdash/> the real world 
-        that we wish to represent just not be like this. The answer to this dilemma in relational data modelling  is to 
+        that we wish to represent just might have indiscernibles that are identical. The answer to this dilemma in relational data modelling  is to 
         (i) enforce the indiscernibility of identicals in the database model
         (ii) accept that the principle may not hold of real world entities and thus 
         (iii) to require the introduction of arbitrary distinguishing properties that have no basis in the real world

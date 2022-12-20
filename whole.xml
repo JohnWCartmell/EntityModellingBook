@@ -17,10 +17,10 @@
 		I give the reader the challenge, as I have given myself, of understanding and articulating
         entity modelling and the whole business of representation 
         of the world in data  from first principles and without reliance, recourse or reference
-        to any particular technology - neither any programming language nor any database system.
-        I wish  the reader  to be open to the discovery of 
+        to particular technology - neither any programming language nor any database system.
+        I wish  the reader  to be open to discovering
         previously unrecognised patterns  of concepts and data 
-		in their own areas and of a kind  that can be exploited 
+		in their own areas of interest and of a kind  that can be exploited 
 		in database design and software development. 
 		</para>
         <subsection>
@@ -30,8 +30,8 @@
             <emdash/> it's a technique and a notation for describing 
             and communicating <emph>what is</emph> in the 
             world and we set out to present it here from first principles. 
-            It enables the representation of conceptual models; 
-            its practitioners represent types of entity as labelled boxes and relationships 
+            It enables the representation of conceptual models.
+            Its practitioners represent types of entity as labelled boxes and relationships 
             as annotated connections between boxes:
             <er_center>
               <filename>refrelChickenLayingAndHatchedFromEgg</filename>
@@ -47,8 +47,8 @@
             </footnote>  software design methodology
             and which is described in a book by Richard Barker<footnote>
               <bibentry>RichardBarkerBook</bibentry>
-            </footnote>. This is sometimes described as the Barker-Ellis notation and
-            it is used in a number of data modelling tools including Oracle's SQL Developer Data Modeler.
+            </footnote>. Sometimes, recognising the influence of Harry Ellis, it is described as the Barker-Ellis notation.
+            It is used in a number of data modelling tools including Oracle's SQL Developer Data Modeler.
           </para>
         </subsection>
         <subsection>
@@ -56,7 +56,7 @@
           <para>        
             Compared to the many books, web pages and lecture notes on this subject, key differentiating features of the presentation here are 
             <itemize>
-              <item> we describe concepts from afresh and, as part of the deal, neither rely on nor promote some established terminology which we judge to be not fit for purpose,
+              <item> we describe concepts from afresh and, as part of the deal, neither rely on nor promote some established terminology which we judge to be not fully fit for purpose,
               </item>
               <item>a distinction is made between 
                 composition relationships and reference relationships, 
@@ -73,12 +73,10 @@
             </itemize>
             </para>
             <para>
-            These differences in approach represent a significant and valuable<footnote>
-                        The crux, as expressed in the fifth bullet point, is the elimination of the database normalisation step and therefore much of physical database modelling  - the fulcrum on which this hinges
+            These differences in approach represent a significant and valuable step up from established practice.
+            The crux, as expressed in the penultimate bullet point above, is the elimination of the database normalisation step and therefore of much of physical database modelling  - the fulcrum on which this hinges
             is the modelling of the scope of reference relationships as a way of encapsulating
-            commutative diagrams of relationships.  
-            </footnote>
-            change from established practice.           
+            commutative diagrams of relationships.        
             </para>
         </subsection>
 
